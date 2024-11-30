@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookworld</title>
+    <link rel="icon" href="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEwL3JtNTM1LWJvb2stMDJhXzEucG5n.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bookstyle.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>BOOKWORLD</h1>
+    </div>
+    <div class="body">
+        <div class="contain">
+            <h2 style="color:  #FD6569;">Pride and Prejudice</h2>
+            <h4>Jane Austen</h4>
+            <p>First published in 1813, this romantic novel of manners is one of the most beloved books in English literature. It follows Elizabeth Bennet, one of five sisters, as she navigates issues of marriage, morality, and misunderstandings in British
+                landed gentry society. The book is known for its witty commentary and complex characters, particularly Elizabeth and Mr. Darcy.</p>
+            <button class="btn" onclick="del(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="pop">
+        <h2>ADD BOOK</h2>
+        <form>
+            <input type="text" placeholder="Book title" id="title">
+            <input type="text" placeholder="Book Author" id="author">
+            <textarea name="des" id="des" placeholder="Enter Description"></textarea>
+            <button id="add">ADD</button>
+            <button id="cancel">CANCEL</button>
+        </form>
+
+    </div>
+    <button class="btnadd" id="btnpop">+</button>
+    <script src="book.js"></script>
+</body>
+
+</html>

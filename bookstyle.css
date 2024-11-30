@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header {
+    background-color: #fd6569;
+    padding: 15px;
+}
+
+.body {
+    padding: 20px;
+}
+
+.btn {
+    background-color: #FD6569;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+}
+
+.contain {
+    border-color: #FD6569;
+    border-width: 2px;
+    border-style: solid;
+    width: 300px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.btnadd {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #FD6569;
+    color: black;
+    border: none;
+    font-size: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.overlay {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+
+.pop {
+    background-color: #fd6569;
+    width: 38%;
+    padding: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    display: none;
+    z-index: 2;
+}
+
+.pop input {
+    background-color: transparent;
+    width: 90%;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-bottom: solid black;
+    border-width: 1px;
+}
+
+.pop textarea {
+    background-color: transparent;
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    border: solid black;
+    border-width: 1px;
+}
+
+.pop input::placeholder {
+    color: black;
+    opacity: 0.8;
+    font-family: "Roboto", sans-serif;
+}
+
+.pop textarea::placeholder {
+    color: black;
+    opacity: 0.8;
+    font-family: "Roboto", sans-serif;
+}
+
+.pop button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+}
+
+.pop input,
+textarea:focus {
+    outline: none;
+}
+
+h2,
+h4,
+p {
+    padding: 5px;
+}
